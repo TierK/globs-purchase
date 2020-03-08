@@ -1,0 +1,1 @@
+//<source media="(max-width: 768px)" srcset="https://images.globes.co.il/images/site/top50/logo-gimel.svg">
