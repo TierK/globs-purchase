@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 @import "../fonts/fonts.css";
 * {
@@ -17,6 +19,7 @@ body {
     direction: rtl;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #FFF8F2;
 }
 
 ul,
@@ -29,7 +32,7 @@ li {
 }
 
 button{
-    background-color: #fff;
+    background-color: #FFF8F2;
 }
 
 .container {
@@ -123,7 +126,7 @@ button{
 }
 
 .deal-pack {
-    background-color: #fff;
+    background-color: #FFF8F2;
     min-width: 300px;
     margin: 0 20px 20px 20px;
     border: solid 1px #d4d4d4;
@@ -165,11 +168,14 @@ button{
 .nis {
     font-family: 'demibold';
     font-size: 21px;
+    padding-right: 5px;
     padding-left: 15px;
     -ms-flex-item-align: end;
     align-self: flex-end;
     position: relative;
 }
+
+
 
 .per-time {
     font-size: 16px;
@@ -177,6 +183,12 @@ button{
     display: inline-block;
     max-width: 50px;
     line-height: 1;
+}
+
+.pack-description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    line-height: 0.5;
 }
 
 .pack-submit {
