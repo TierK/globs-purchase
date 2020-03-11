@@ -85,6 +85,9 @@ li {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+    max-width: 280px;
+    margin-bottom: -32px;
+
 }
 
 .main,
@@ -275,15 +278,26 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-    .deal > .container {
+    .container,
+    .description,
+    .header,
+    .main,
+    .deal,
+    .deal.container {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        padding: 40px 0 0;
         width: 100%;
+        justify-items: center;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .deal-pack {
         -webkit-box-flex: 0;
             -ms-flex: 0 1 309px;
                 flex: 0 1 309px;
+                margin: 20px auto;
     }
 }
